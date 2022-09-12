@@ -35,5 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
+          :ls
+          ruruns-on: ubuntu-latest
+
           -name: List all files
           run : ls
